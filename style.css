@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+}
+
+#container {
+    margin-left: 40%;
+    margin-top: 2%;
+
+}
+.header-section {
+    display: flex;
+    padding-top: 25px;
+    height: 50px;
+    border: 1px solid grey;
+    padding: 30px;
+    width: 360px;
+    border-radius: 15px;
+    background-color: hsl(28, 10%, 53%);
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.fa {
+    display: flex;
+    margin: -2px;
+    margin: auto;
+    
+}
+.fa-circle-thin {
+    margin-left: 240px;
+}
+#balance {
+    margin-top: 15px;
+    color: white;
+}
+#mybalance {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.info-page {
+    width: 400px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    height: 480px;
+}
+.chart-header {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icons {
+    margin-bottom: 40px;
+}
+
+.chart-container {
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: opacity(50%);
+}
+.vertical-bars {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    transform: rotate(180deg);
+    
+}
+
+.bar1 {
+    width: 30px;
+    height: 25%;
+    background-color: aqua;
+}
+.horizontal-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: lighter;
+   opacity: 50%;
+    margin-top: 5px;
+}
+#total-container {
+    margin-top: 25px;
+}
+
+.bar2 {
+    width: 30px;
+    height: 15%;
+    background-color: black;
+    cursor: pointer;
+}
+.bar2 :hover {
+    background-color: aqua;
+}
+.bar3 {
+    width: 30px;
+    height: 45%;
+    background-color: blue;
+}
+
+.bar4 {
+    width: 30px;
+    height: 55%;
+    background-color: palevioletred;
+}
+.bar5 {
+    width: 30px;
+    height: 25%;
+    background-color: orange;
+}
+.bar6 {
+    width: 30px;
+    height: 15%;
+    background-color: brown;
+}
+.bar7 {
+    width: 30px;
+    height: 15%;
+    background-color: red;
+}
+ 
+#footer-total {
+    margin-left: 20px;
+    font-size: 12px;
+    opacity: 50%;
+}
+#footer-amount {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#footer-discount {
+    margin-left: 80%;
+    margin-top: -38px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#footer-desc {
+    margin-left: 72%;
+    font-size: 12px;
+    opacity: 50%;
+}
